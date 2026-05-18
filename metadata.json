@@ -1,0 +1,6 @@
+{
+  "name": "IMSS Digital",
+  "description": "Portal oficial del IMSS para derechohabientes. Gestiona tus citas, recetas y documentos médicos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

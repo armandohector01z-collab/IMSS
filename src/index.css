@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Atkinson Hyperlegible Next", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+
+  --color-primary: #006138;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #e6f4ea;
+  --color-on-primary-container: #072110;
+  
+  --color-secondary: #8c7851;
+  --color-background: #fbfcf8;
+  --color-surface: #fbfcf8;
+  --color-surface-container: #edf0e9;
+  --color-outline: #727970;
+  --color-outline-variant: #c2c9bf;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-zinc-900 font-sans;
+    background-image: radial-gradient(circle at 2px 2px, rgba(74, 124, 89, 0.04) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+}
